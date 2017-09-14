@@ -30,7 +30,7 @@ get '/password_generator/:length' do
     length = params["length"].to_i 
     redirect to ('/password_generator')
   else
-    "It should be 6 - 64 digits, type a number within this range again"
+    "It should be 6-64 digits, type a number within this range again"
   end
 end
 
