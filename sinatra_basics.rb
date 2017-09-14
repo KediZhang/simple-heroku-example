@@ -30,7 +30,7 @@ get '/units' do
 end
 
 get '/instructor' do
-  instructor = "Daragh Byrne, daragh@daraghbyrne.me, Slack ID: @daragh"
+  instructor = "Daragh Byrne, daragh@daraghbyrne.me, SlackID: @daragh"
   instructor
 end
 
