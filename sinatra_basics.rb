@@ -49,7 +49,7 @@ end
 # Add a configuration block and provide settings that define three links (to the course slack, the main site and the github repository)
 configure { set :slack, 'onlineprototypes2017.slack.com' }
 configure { set :site, 'https://canvas.cmu.edu/courses/2138' }
-configure { set :repo, 'https://canvas.cmu.edu/courses/2138' }
+configure { set :repo, 'https://github.com/daraghbyrne/onlineprototypes2017' }
 
 get '/links' do
   "This is page for links, type <br/> 
